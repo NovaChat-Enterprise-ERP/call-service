@@ -32,6 +32,8 @@ pnpm dev
 
 ## Docker
 
+Run this command from the `call-service` repository root. The build secret provides the GitHub Packages token.
+
 ```sh
 docker build --secret id=npmrc,src=$HOME/.npmrc -t novachat/call-service .
 ```
